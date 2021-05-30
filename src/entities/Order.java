@@ -6,8 +6,8 @@ import java.util.List;
 
 public class Order {
 	private Long id;
-	private double latitude;
-	private double longitude;
+	private Double latitude;
+	private Double longitude;
 	private Instant moment;
 	private OrderStatus status;  //Serve para fazer as associações
 	private List<Product> products = new ArrayList<>();
